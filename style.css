@@ -15,7 +15,7 @@
     --h-md-font-size: 1.75rem;
     --h-lg-font-size: 2.125rem;
 
-    /* Spacing */
+    /* Line-Height */
     --h-line-height: 110%;
     --p-line-height: 150%;
 
@@ -170,7 +170,7 @@ tr:last-child td {
 
 @media only screen and (min-width:376px) {
     body{margin:4rem;background-color:var(--stone-100);}
-    main{max-width: 1140px;background-color:var(--white);border-radius: 1rem;padding:2rem;}
+    main{max-width: 736px;background-color:var(--white);border-radius: 1rem;padding:2rem;margin:0 auto;}
     img{
         border-radius: 1rem;
         height:50vh;
